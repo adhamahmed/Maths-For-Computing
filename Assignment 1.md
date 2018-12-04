@@ -19,11 +19,49 @@ Find a multiplicative inverse modulo 9 of each of the following integers.
 
 (a) 1
 
+1 x 0 = 0  r0
+
+1 x 1 = 1  r1
+
+Answer is 1
+
 (b) 5
+
+5 x 0 = 0  r0
+
+5 x 1 = 5  r5
+
+5 x 2 = 10  r1
+
+Answer is 2
 
 (c) 7
 
+7 x 0 = 0  r0
+
+7 x 1 = 7  r7
+
+7 x 2 = 14  r5
+
+7 x 3 = 21  r3
+
+7 x 4 = 28  r1
+
+Answer is 4
+
 (d) 16
+
+16 x 0 = 0  r1
+
+16 x 1 = 16  r7
+
+16 x 2 = 32  r5
+
+16 x 3 = 48  r3
+
+16 x 4 = 64  r1
+
+Answer is 4
 
 Show that each of the following integers doesn't have a multiplicative inverse modulo 9.
 
