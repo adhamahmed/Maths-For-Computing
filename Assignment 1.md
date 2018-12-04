@@ -10,7 +10,14 @@ The owner would like an app that will determine the appropriate number of packag
 b) At weekends there are often two events. The owner packs the buns into plastic containers. Each container has the same number of buns. If 288 buns are needed for one event and 660 buns are needed for another, determine the maximum number of buns per container so that a whole number of container can be taken to each event.
 
 ### Part 2
-a) You have decided to save some money during the six week holiday. You save 1p on the first day, 2p on the second day, 3p on the second day, etc. How much will you have at the end of the holiday?
+a) You have decided to save some money during the six week holiday. You save 1p on the first day, 2p on the second day, 3p on the second day, etc. How much will you have at the end of the holiday (42 days)?
+
+For this arithmetic sequence, this formula needs to be used, where n is 42 for the number of days/number of terms in the series, and a is 1 for the first number in our series
+
+![](https://i.imgur.com/5cp8dK4.png)
+
+
+
 
 b) A friend of yours runs a charity marathon. He manages to run the first mile in 6 minutes but takes 5% longer for each subsequent mile of the 26 mile race. How long does it take him to complete the race?
 
