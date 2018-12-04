@@ -66,10 +66,13 @@ Answer is 4
 Show that each of the following integers doesn't have a multiplicative inverse modulo 9.
 
 (a) 0
+0 cannot have a multiplicative inverse modulo 9 as anything times 0 will always result in 0 and remainder 1 cannot be found.
 
 (b) 6
+6 does not have a multiplicative inverse modulo 9 as the numbers 6 and 9 both share a common prime factor - 3.
 
 (c) 18
+18 does not have a multiplicative inverse modulo 9 as the numbers 18 and 9 both share common prime factors - 2 and 3.
 
 
 ### Part 4
