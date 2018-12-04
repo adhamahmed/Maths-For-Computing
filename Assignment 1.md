@@ -12,9 +12,13 @@ b) At weekends there are often two events. The owner packs the buns into plastic
 ### Part 2
 a) You have decided to save some money during the six week holiday. You save 1p on the first day, 2p on the second day, 3p on the second day, etc. How much will you have at the end of the holiday (42 days)?
 
+![](https://i.imgur.com/5cp8dK4.png)
+
 For this arithmetic sequence, this formula needs to be used, where n is 42 for the number of days/number of terms in the series, and a is 1 for the first number in our series
 
-![](https://i.imgur.com/5cp8dK4.png)
+![](https://i.imgur.com/ZHRhLNM.png)
+
+Once calculated, the answer comes to 903, which works out to be £9.03 saved after the holiday.
 
 
 
