@@ -18,14 +18,21 @@ b) A friend of yours runs a charity marathon. He manages to run the first mile i
 Find a multiplicative inverse modulo 9 of each of the following integers.
 
 (a) 1
+
 (b) 5
+
 (c) 7
+
 (d) 16
+
 Show that each of the following integers doesn't have a multiplicative inverse modulo 9.
 
 (a) 0
+
 (b) 6
+
 (c) 18
+
 
 ### Part 4
 Produce a detailed report, explaining the importance of prime numbers within the field of computing.
