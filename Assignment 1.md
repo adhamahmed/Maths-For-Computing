@@ -34,6 +34,7 @@ while(a!=b) {
 }
 
 cout << "The minimum number of items per package if different from usual is " << a << endl; 
+
 cout << "The minimum number of servings that must be catered for is " << c/a << endl;
 
 By using this code, we can find out the minimum number of servings must be 24 by working out the LCM of 8 and 12.
@@ -66,11 +67,12 @@ Once calculated, the answer comes to 903, which works out to be £9.03 saved aft
 
 b) A friend of yours runs a charity marathon. He manages to run the first mile in 6 minutes but takes 5% longer for each subsequent mile of the 26 mile race. How long does it take him to complete the race?
 
-Formula is
+The formula we use to work out the total time is:
+
 
 ![](https://i.imgur.com/ZmbJLM5.png)
 
-Numbers put into formula
+Once we put the numbers put into formula, it looks as such:
 
 ![](https://i.imgur.com/4usLx6f.png)
 
