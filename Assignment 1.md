@@ -65,9 +65,18 @@ Once calculated, the answer comes to 903, which works out to be £9.03 saved aft
 
 
 
-b) A friend of yours runs a charity marathon. He manages to run the first mile in 6 minutes but takes 5% longer for each subsequent mile of the 26 mile race. How long does it take him to complete the race?
+b) A friend of yours runs a charity marathon. He manages to run the first mile in 6 minutes but takes 5% longer for each subsequent mile of the 26 mile race. How long does it take him to complete the race? Give your answer to the nearest second.
 
-The formula we use to work out the total time is:
+First we must work out the amount of time taken to complete each mile of the race.
+Since the first mile takes 6 minutes to complete and each subsequent mile takes another 5%, we can find a pattern:
+Mile 1 - 6 minutes
+Mile 2 - 6 x 1.05 minutes
+Mile 3 - 6 x (1.05)^2 minutes
+
+As we follow this pattern, the 26th mile should be:
+Mile 26 - 6 x (1.05)^25 minutes
+
+To work out the total time, we can put it into a formula that looks as such:
 
 ![](https://i.imgur.com/oRw15S4.png)
 
@@ -75,7 +84,7 @@ Once we put the numbers put into formula, it looks as such:
 
 ![](https://i.imgur.com/4usLx6f.png)
 
-
+Once the numbers are in the formula, we can work out that it is 306.68.. minutes. To the nearest second, this is 18400 seconds.
 
 ### Part 3
 Find a multiplicative inverse modulo 9 of each of the following integers.
