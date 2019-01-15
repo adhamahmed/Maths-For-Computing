@@ -7,7 +7,41 @@ The owner would like an app that will determine the appropriate number of packag
 * a specified minimum number of servings that must be catered for
 * the number of items per package, if different from usual
 
+Using Euclid's Algorithm in code looks as such:
+
+int a,b,c;
+
+cout << "Please enter the number of hot dogs that come in a single package: ";
+cin >> a; 
+cout << "Please enter the number of buns that come in a single package: ";
+cin >> b;
+
+c=a*b; 
+
+while(a!=b) { 
+    if(a>b) 
+	a=a-b; 
+    else 
+	b=b-a; 
+}
+
+cout << "The minimum number of items per package if different from usual is " << a << endl; 
+cout << "The minimum number of servings that must be catered for is " << c/a << endl;
+
+By using this code, we can find out the minimum number of servings must be 24 by working out the LCM of 8 and 12.
+
+To work out the second part, which asks for the number of items per package if different from usual, the HCF of 8 and 12 has to be calculated. The HCF of 8 and 12 is 4, so the appropriate number of items per package if different from usual would be 4.
+
+
 b) At weekends there are often two events. The owner packs the buns into plastic containers. Each container has the same number of buns. If 288 buns are needed for one event and 660 buns are needed for another, determine the maximum number of buns per container so that a whole number of container can be taken to each event.
+(Use Euclid's Algorithm to find the HCF)
+
+660 = (288 x 2) + 84
+288 = (84 x 3) + 36
+84 = (36 x 2) + 12
+36 = (12 x 3) + 0
+
+As the remainder has been reached, the HCF of 660 and 288 is 12.
 
 ### Part 2
 a) You have decided to save some money during the six week holiday. You save 1p on the first day, 2p on the second day, 3p on the second day, etc. How much will you have at the end of the holiday (42 days)?
