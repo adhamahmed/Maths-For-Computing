@@ -161,7 +161,7 @@ Cryptography is essentially all number theory. This is a branch of pure mathemat
 
 But why exactly are prime numbers important for cryptography? This is because of prime factorization, which is a commonly used mathematical problem that is used to secure public-key encryption systems. Public-key encryption consists of a product of two large prime numbers which is then uses to encrypt a message. As this is largely computer intensive, it is extremely difficult to use the public-key by itself to decrypt any encrypted messages unless you have the private-key.
 
-An example of this is RSA encryption which uses prime numbers to create keys as said above. This system goes through 4 steps: key generation, key distribtution, encryption, and decryption. The first step, key generation, takes two distinct and random prime numbers, multiplies them, and that is used as the modulus for both the public and private keys.
+An example of this is RSA encryption which uses prime numbers to create keys as said above. This system goes through 4 steps: key generation, key distribution, encryption, and decryption. The first step, key generation, takes two distinct and random prime numbers, multiplies them, and that is used as the modulus for both the public and private keys.
 
 As shown below in Figure 1, it shows the rest of the key generation's equations
 ![Figure 1](https://i.imgur.com/dRmGGah.jpg)
