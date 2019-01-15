@@ -154,14 +154,19 @@ Show that each of the following integers doesn't have a multiplicative inverse m
 Produce a detailed report, explaining the importance of prime numbers within the field of computing.
 
 Prime numbers are very important within computing, specificially cryptopgraphy, encryption and security.
+
 Firstly, we need to understand what exactly a prime number is. A prime number is a whole number greater than 1 whose factors are only 1 and itself. For instance, the first few prime numbers are 2, 3, 5, 7, 11 and so on. They are all odd numbers with 2 being the only exception.
+
 Cryptography is essentially all number theory. This is a branch of pure mathematics devvoted to the study of integers. Encryption is converting data into a string that is unrecognisable to read. This is widely used available due to the development of modern computers being able to perform powerful mathematical operations in seconds.
+
 But why exactly are prime numbers important for cryptography? This is because of prime factorization, which is a commonly used mathematical problem that is used to secure public-key encryption systems. Public-key encryption consists of a product of two large prime numbers which is then uses to encrypt a message. As this is largely computer intensive, it is extremely difficult to use the public-key by itself to decrypt any encrypted messages unless you have the private-key.
+
 An example of this is RSA encryption which uses prime numbers to create keys as said above. This system goes through 4 steps: key generation, key distribtution, encryption, and decryption. The first step, key generation, takes two distinct and random prime numbers, multiplies them, and that is used as the modulus for both the public and private keys.
 
 As shown below in Figure 1, it shows the rest of the key generation's equations
-![](https://i.imgur.com/dRmGGah.jpg)
+![Figure 1](https://i.imgur.com/dRmGGah.jpg)
 
+The next part, key distribution, is simply giving someone the public key. This follows on to the last two steps as well, as encryption and decryption go hand in hand. For example, if Archie wanted to send information to Hannah and they wanted to use RSA to secure the information, Hannah would have to send Archie her public key so he can encrypt the information into ciphertext. Archie would then send the ciphertext to Hannah, who then can recover the information from the ciphertext by using her private key. The encryption happens by using an agreed-upon reversible protocol which is known as a padding scheme. The decryption reverses the padding scheme to decrypt the original information.
 
 
 
