@@ -1,7 +1,7 @@
 # Assignment 1
 
 ### Part 1
- a) A small local catering company provides hot dogs served in buns at local events. The owner has to order the hot dogs and the buns and wants to ensure that however many are ordered, there are the same number of hot dogs and buns. The hot dogs usually come in packages of 8 although this can vary depending on the supplier. The buns usally come in packages of 12 but like the buns this can vary.
+ a) A small local catering company provides hot dogs served in buns at local events. The owner has to order the hot dogs and the buns and wants to ensure that however many are ordered, there are the same number of hot dogs and buns. The hot dogs usually come in packages of 8 although this can vary depending on the supplier. The buns usually come in packages of 12 but like the buns this can vary.
  
 The owner would like an app that will determine the appropriate number of packages of hot dogs and buns to order, given:
 * a specified minimum number of servings that must be catered for
