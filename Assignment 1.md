@@ -12,17 +12,25 @@ Using Euclid's Algorithm in code looks as such:
 int a,b,c;
 
 cout << "Please enter the number of hot dogs that come in a single package: ";
+
 cin >> a; 
+
 cout << "Please enter the number of buns that come in a single package: ";
+
 cin >> b;
 
 c=a*b; 
 
 while(a!=b) { 
+
     if(a>b) 
+    
 	a=a-b; 
+	
     else 
+    
 	b=b-a; 
+	
 }
 
 cout << "The minimum number of items per package if different from usual is " << a << endl; 
