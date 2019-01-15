@@ -168,7 +168,7 @@ As shown below in Figure 1, it shows the rest of the key generation's equations
 
 The next part, key distribution, is simply giving someone the public key. This follows on to the last two steps as well, as encryption and decryption go hand in hand. For example, if Archie wanted to send information to Hannah and they wanted to use RSA to secure the information, Hannah would have to send Archie her public key so he can encrypt the information into ciphertext. Archie would then send the ciphertext to Hannah, who then can recover the information from the ciphertext by using her private key. The encryption happens by using an agreed-upon reversible protocol which is known as a padding scheme. The decryption reverses the padding scheme to decrypt the original information.
 
-
+Prime numbers are an extremely efficient way to manage different specific computing fields such as cryptography and hashing. It is what many people and organisations depend on to keep their information secure, both personally and professionally.
 
 
 Source(s):
