@@ -69,8 +69,7 @@ b) A friend of yours runs a charity marathon. He manages to run the first mile i
 
 The formula we use to work out the total time is:
 
-
-![](https://i.imgur.com/ZmbJLM5.png)
+![](https://i.imgur.com/oRw15S4.png)
 
 Once we put the numbers put into formula, it looks as such:
 
