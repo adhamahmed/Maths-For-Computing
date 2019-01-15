@@ -171,21 +171,8 @@ The next part, key distribution, is simply giving someone the public key. This f
 Prime numbers are an extremely efficient way to manage different specific computing fields such as cryptography and hashing. It is what many people and organisations depend on to keep their information secure, both personally and professionally.
 
 
-Source(s):
+References:
 
 https://learncryptography.com/mathematics/prime-factorization
 
 http://research.microsoft.com/en-us/groups/crypto/firstcrypto.aspx
-
-
-
-
-
-
-
-
-
-
-
-
-
